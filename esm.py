@@ -13,6 +13,7 @@ tsConfig["compilerOptions"]["module"] = "ESNext"
 tsConfig["compilerOptions"]["moduleResolution"] = "node16"
 tsConfig["compilerOptions"]["isolatedModules"] = True
 tsConfig["compilerOptions"]["noPropertyAccessFromIndexSignature"] = True
+tsConfig["compilerOptions"]["strict"] = True
 
 tsConfig["ts-node"] = {
     "transpileOnly": True,
